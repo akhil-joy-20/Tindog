@@ -1,0 +1,165 @@
+#title{
+    background-color: #ff4c68;
+}
+.container-fluid{
+    padding: 5% 15%;
+}
+.navbar{
+    padding: 0;
+    margin-bottom: 3rem ;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bolder;
+}
+.download-button{
+     margin: 1rem 1rem 0 0;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    /* padding-top: 7%;
+    margin-left: 33%; */
+     position: absolute; 
+     padding-bottom: 100%; 
+}
+
+/* features */
+
+
+#features{
+    background-color: #fff;
+     position: relative;
+    z-index: 1; 
+}
+.feature-align{
+    text-align: center;
+    padding: 5%;
+}    
+h3{
+    font-weight: bolder;
+}
+
+.icon-color{
+    color: #ff4c68;
+}
+.icon-color:hover{
+    color: crimson;
+}
+.sub-text1{
+    color: #8f8f8f;
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color:  #ff4c68;
+    text-align: center;
+}
+.testi{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 4% 5% 2% 0;
+}
+#press{
+    background-color: #ff4c68;
+}
+.press-logo{
+    width: 10%;
+     text-align: center;
+     margin: 2% 7% 4% 7%; 
+}
+.carousel-item{
+    padding: 7% 15% 7% 15%;
+}
+em{
+    color: #fff;
+}
+
+/* pricing */
+
+#pricing{
+     text-align: center;
+     margin: 6% 5% 4% 5%;
+}
+.pricing-title{
+    font-size: 3rem;
+}
+.card{
+    margin-top: 7%;
+    border-width: .15rem;
+    border-color:rgb(223, 217, 217);
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding: 5% 7% 2% 7%;
+    line-height: 1.5;
+}
+.cta-download{
+    padding-bottom: 6%;
+}
+
+/* footer */
+
+#footer{
+    padding-top: 2%;
+    text-align: center;
+}
+.social-icon{
+    margin: 2%;
+    cursor: pointer;
+
+}
+.copyright{
+    color: #8f8f8f;
+}
+
+/* media queries */
+
+@media (max-width: 991px){
+
+    .title-sub{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0);
+        position: static;
+        width: 40%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+}
+
+@media (max-width: 858px){
+
+   .testi{
+       font-size: 1.5rem;
+       font-weight: bold;
+       line-height: 1.3;
+   }
+   .cta-title{
+       font-size: 1.5rem;
+   }
+
+}
